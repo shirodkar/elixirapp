@@ -1,4 +1,4 @@
-defmodule MyappWeb.HelloController do
+defmodule ElixirappWeb.HelloController do
   use MyappWeb, :controller
 
   def hello(conn, params) do
