@@ -42,7 +42,7 @@ defmodule ElixirappWeb.Router do
     end
   end
 
-  scope "/api", MyappWeb do
+  scope "/api", ElixirappWeb do
      pipe_through :api
 
      post "/hello", HelloController, :hello
